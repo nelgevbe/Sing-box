@@ -189,12 +189,12 @@ def get_files_for_architecture(architecture):
     if architecture == 'arm':
         base_files = [
             {"fileName": "web", "fileUrl": "https://arm64.ssss.nyc.mn/sb"},
-            {"fileName": "bot", "fileUrl": "https://arm64.ssss.nyc.mn/2go"}
+            {"fileName": "bot", "fileUrl": "https://arm64.ssss.nyc.mn/bot"}
         ]
     else:
         base_files = [
             {"fileName": "web", "fileUrl": "https://amd64.ssss.nyc.mn/sb"},
-            {"fileName": "bot", "fileUrl": "https://amd64.ssss.nyc.mn/2go"}
+            {"fileName": "bot", "fileUrl": "https://amd64.ssss.nyc.mn/bot"}
         ]
 
     if NEZHA_SERVER and NEZHA_KEY:
